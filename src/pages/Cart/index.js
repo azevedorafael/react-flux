@@ -1,5 +1,9 @@
 import React from 'react';
-import {MdRemoveCircleOutline, MdAddCircleOutline, MdDelete} from 'react-icons/md';
+import {
+  MdRemoveCircleOutline,
+  MdAddCircleOutline,
+  MdDelete,
+} from 'react-icons/md';
 
 import { Container, ProductTable, Total } from './styles';
 
@@ -19,7 +23,10 @@ export default function Cart() {
         <tbody>
           <tr>
             <td>
-              <img src="https://imgcentauro-a.akamaihd.net/180x180/93457831.jpg" alt="Tênis" />
+              <img
+                src="https://imgcentauro-a.akamaihd.net/180x180/93457831.jpg"
+                alt="Tênis"
+              />
             </td>
             <td>
               <strong>Tênis top</strong>
@@ -30,7 +37,7 @@ export default function Cart() {
                 <button type="button">
                   <MdRemoveCircleOutline size={20} color="#7159c1" />
                 </button>
-                <input type="number" readOnly value={1}/>
+                <input type="number" readOnly value={1} />
                 <button type="button">
                   <MdAddCircleOutline size={20} color="#7159c1" />
                 </button>
@@ -41,7 +48,7 @@ export default function Cart() {
             </td>
             <td>
               <button type="button">
-                <MdDelete size={20} color="#7159c1"/>
+                <MdDelete size={20} color="#7159c1" />
               </button>
             </td>
           </tr>
@@ -49,9 +56,7 @@ export default function Cart() {
       </ProductTable>
 
       <footer>
-        <button type="button">
-          Finalizer pedido
-        </button>
+        <button type="button">Finalizer pedido</button>
 
         <Total>
           <span>TOTAL</span>

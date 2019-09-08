@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {darken} from 'polished';
+import { darken } from 'polished';
 
 export const ProductList = styled.div`
   display: grid;
@@ -8,7 +8,7 @@ export const ProductList = styled.div`
   list-style: none;
 
   li {
-    display:flex;
+    display: flex;
     flex-direction: column;
     background: #fff;
     border-radius: 4px;
@@ -34,7 +34,7 @@ export const ProductList = styled.div`
 
     button {
       background: #7159c1;
-      color: #FFF;
+      color: #fff;
       border: 0;
       border-radius: 4px;
       overflow: hidden;
@@ -45,11 +45,11 @@ export const ProductList = styled.div`
       transition: background 0.2s;
 
       &:hover {
-        background:${darken(0.03 , '#7159c1')}
+        background: ${darken(0.03, '#7159c1')};
       }
 
       div {
-        display:flex;
+        display: flex;
         align-items: center;
         padding: 12px;
         background: rgba(0, 0, 0, 0.1);
@@ -65,6 +65,5 @@ export const ProductList = styled.div`
         font-weight: bold;
       }
     }
-
   }
 `;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {darken} from  'polished';
+import { darken } from 'polished';
 
 export const Container = styled.div`
   padding: 30px;
@@ -27,7 +27,6 @@ export const Container = styled.div`
       }
     }
   }
-
 `;
 
 export const ProductTable = styled.table`
@@ -78,20 +77,19 @@ export const ProductTable = styled.table`
     border: 0;
     padding: 6px;
   }
-
 `;
 
 export const Total = styled.div`
-display: flex;
-align-items: baseline;
+  display: flex;
+  align-items: baseline;
 
-span {
-  color: #999;
-  font-weight: bold;
-}
+  span {
+    color: #999;
+    font-weight: bold;
+  }
 
-strong {
-  font-size: 28px;
-  margin-left: 5px;
-}
+  strong {
+    font-size: 28px;
+    margin-left: 5px;
+  }
 `;
